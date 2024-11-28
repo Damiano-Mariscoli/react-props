@@ -45,15 +45,33 @@
     
   }
 
-.card h2, .card p , .card button {
+.card h2, .card p , .card button , .card span{
     margin-left: 20px;
     margin-bottom: 10px;
 }
-
+.tag{
+  border: 0px solid;
+  background-color: rgb(226, 226, 226);
+  padding: 10px;
+  border-radius: 5px;
+}
 
 .dFlex{
     display: flex;
 }
 .flexColumn{
     flex-direction: column;
+}
+
+.htmlColor{
+  color: pink;
+}
+.cssColor{
+  color: red;
+}
+.jsColor{
+  color: green;
+}
+.phpColor{
+color: #ffbb00;
 }

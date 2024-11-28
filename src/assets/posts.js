@@ -39,4 +39,22 @@ export const posts = [
     tags: ["html"],
     published: false,
   },
+  {
+    id: 5,
+    title: "Titolo del Post 5",
+    image: "https://picsum.photos/487" /* compila questo campo */,
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
+    tags: ["js", "css"],
+    published: true,
+  },
+  {
+    id: 6,
+    title: "Titolo del Post 6",
+    image: "https://picsum.photos/465" /* compila questo campo */,
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
+    tags: ["js", "css"],
+    published: true,
+  },
 ];

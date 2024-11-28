@@ -14,8 +14,8 @@ export default function Main() {
                     <Card
                       image={post.image}
                       title={post.title}
-                      content={post.content}
                       tags={post.tags}
+                      content={post.content}
                     />
                   </div>
                 </>
