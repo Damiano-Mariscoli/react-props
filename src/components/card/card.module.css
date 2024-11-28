@@ -37,6 +37,8 @@
     background-color: #ffbb00;
   }
   .card img{
+    width: 100%;
+    aspect-ratio: 1/1;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 400px;

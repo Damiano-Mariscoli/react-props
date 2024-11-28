@@ -7,17 +7,22 @@ export default function Main() {
       <div className={`${style.dFlex}  ${style.flexCenter}`}>
         <div className={style.containerMd}>
           <div className={`${style.row} ${style.flexCenter}`}>
-            {posts.map((post) => (
-              <>
-                <div className={style.col6}>
-                  <Card
-                    title={post.title}
-                    content={post.content}
-                    tags={post.tags}
-                  />
-                </div>
-              </>
-            ))}
+            {posts.map((post) =>
+              post.published ? (
+                <>
+                  <div className={style.col6}>
+                    <Card
+                      image={post.image}
+                      title={post.title}
+                      content={post.content}
+                      tags={post.tags}
+                    />
+                  </div>
+                </>
+              ) : (
+                <></>
+              )
+            )}
           </div>
         </div>
       </div>
