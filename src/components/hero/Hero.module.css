@@ -1,7 +1,11 @@
 .containerMd{
-    width: 1200px;
-    height: 100vh;
+    width: 1500px;
     margin-bottom: 100px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .dFlex{

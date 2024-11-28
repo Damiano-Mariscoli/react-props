@@ -1,17 +1,13 @@
 import style from "./card.module.css";
-export default function Card() {
+export default function Card(props) {
   return (
     <div className={style.card}>
+      {console.log(props)}
       <img src="https://dummyimage.com/600x400/000/fff" alt="" />
 
       <div className={`${style.dFlex} ${style.flexColumn}`}>
-        <h2>Titolo del Post</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam tenetur
-          aspernatur dolores doloribus nostrum, repudiandae tempore quis aliquid
-          id velit possimus adipisci deleniti molestiae temporibus inventore
-          odio
-        </p>
+        <h2>{props.title}</h2>
+        <p>{`${props.content} ${props.tags}`}</p>
         <button>LEGGI DI PIÙ</button>
       </div>
     </div>
